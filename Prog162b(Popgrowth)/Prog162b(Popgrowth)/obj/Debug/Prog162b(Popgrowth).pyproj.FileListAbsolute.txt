@@ -1,0 +1,12 @@
+C:\Users\crowe.z\Desktop\Programming 1-6\Prog162b(Popgrowth)\Prog162b(Popgrowth)\bin\Debug\Prog162b(Popgrowth).exe.config
+C:\Users\crowe.z\Desktop\Programming 1-6\Prog162b(Popgrowth)\Prog162b(Popgrowth)\bin\Debug\Prog162b(Popgrowth).exe
+C:\Users\crowe.z\Desktop\Programming 1-6\Prog162b(Popgrowth)\Prog162b(Popgrowth)\bin\Debug\Prog162b(Popgrowth).dll
+C:\Users\crowe.z\Desktop\Programming 1-6\Prog162b(Popgrowth)\Prog162b(Popgrowth)\bin\Debug\IronPython.dll
+C:\Users\crowe.z\Desktop\Programming 1-6\Prog162b(Popgrowth)\Prog162b(Popgrowth)\bin\Debug\IronPython.Modules.dll
+C:\Users\crowe.z\Desktop\Programming 1-6\Prog162b(Popgrowth)\Prog162b(Popgrowth)\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\crowe.z\Desktop\Programming 1-6\Prog162b(Popgrowth)\Prog162b(Popgrowth)\bin\Debug\Microsoft.Scripting.dll
+C:\Users\crowe.z\Desktop\Programming 1-6\Prog162b(Popgrowth)\Prog162b(Popgrowth)\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\crowe.z\Desktop\Programming 1-6\Prog162b(Popgrowth)\Prog162b(Popgrowth)\obj\Debug\Prog162b(Popgrowth).pyprojResolveAssemblyReference.cache
+C:\Users\crowe.z\Desktop\Programming 1-6\Prog162b(Popgrowth)\Prog162b(Popgrowth)\obj\Debug\Prog162b_Popgrowth_.MainForm.resources
+C:\Users\crowe.z\Desktop\Programming 1-6\Prog162b(Popgrowth)\Prog162b(Popgrowth)\obj\Debug\Prog162b(Popgrowth).pyproj.GenerateResource.Cache
+C:\Users\crowe.z\Desktop\Programming 1-6\Prog162b(Popgrowth)\Prog162b(Popgrowth)\obj\Debug\Prog162b(Popgrowth).exe

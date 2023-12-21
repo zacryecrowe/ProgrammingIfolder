@@ -1,0 +1,12 @@
+C:\Users\crowe.z\Desktop\Programming 1-6\Pg247(RadioButtonsOhBoyYayyyyy)\Pg247(RadioButtonsOhBoyYayyyyy)\bin\Debug\Pg247(RadioButtonsOhBoyYayyyyy).exe.config
+C:\Users\crowe.z\Desktop\Programming 1-6\Pg247(RadioButtonsOhBoyYayyyyy)\Pg247(RadioButtonsOhBoyYayyyyy)\bin\Debug\Pg247(RadioButtonsOhBoyYayyyyy).exe
+C:\Users\crowe.z\Desktop\Programming 1-6\Pg247(RadioButtonsOhBoyYayyyyy)\Pg247(RadioButtonsOhBoyYayyyyy)\bin\Debug\Pg247(RadioButtonsOhBoyYayyyyy).dll
+C:\Users\crowe.z\Desktop\Programming 1-6\Pg247(RadioButtonsOhBoyYayyyyy)\Pg247(RadioButtonsOhBoyYayyyyy)\bin\Debug\IronPython.dll
+C:\Users\crowe.z\Desktop\Programming 1-6\Pg247(RadioButtonsOhBoyYayyyyy)\Pg247(RadioButtonsOhBoyYayyyyy)\bin\Debug\IronPython.Modules.dll
+C:\Users\crowe.z\Desktop\Programming 1-6\Pg247(RadioButtonsOhBoyYayyyyy)\Pg247(RadioButtonsOhBoyYayyyyy)\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\crowe.z\Desktop\Programming 1-6\Pg247(RadioButtonsOhBoyYayyyyy)\Pg247(RadioButtonsOhBoyYayyyyy)\bin\Debug\Microsoft.Scripting.dll
+C:\Users\crowe.z\Desktop\Programming 1-6\Pg247(RadioButtonsOhBoyYayyyyy)\Pg247(RadioButtonsOhBoyYayyyyy)\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\crowe.z\Desktop\Programming 1-6\Pg247(RadioButtonsOhBoyYayyyyy)\Pg247(RadioButtonsOhBoyYayyyyy)\obj\Debug\Pg247(RadioButtonsOhBoyYayyyyy).pyprojResolveAssemblyReference.cache
+C:\Users\crowe.z\Desktop\Programming 1-6\Pg247(RadioButtonsOhBoyYayyyyy)\Pg247(RadioButtonsOhBoyYayyyyy)\obj\Debug\Pg247_RadioButtonsOhBoyYayyyyy_.MainForm.resources
+C:\Users\crowe.z\Desktop\Programming 1-6\Pg247(RadioButtonsOhBoyYayyyyy)\Pg247(RadioButtonsOhBoyYayyyyy)\obj\Debug\Pg247(RadioButtonsOhBoyYayyyyy).pyproj.GenerateResource.Cache
+C:\Users\crowe.z\Desktop\Programming 1-6\Pg247(RadioButtonsOhBoyYayyyyy)\Pg247(RadioButtonsOhBoyYayyyyy)\obj\Debug\Pg247(RadioButtonsOhBoyYayyyyy).exe

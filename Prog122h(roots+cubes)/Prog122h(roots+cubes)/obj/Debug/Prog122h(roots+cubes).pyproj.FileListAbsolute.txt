@@ -1,0 +1,12 @@
+C:\Users\crowe.z\Desktop\Programming 1-6\Prog122h(roots+cubes)\Prog122h(roots+cubes)\bin\Debug\Prog122h(roots+cubes).exe.config
+C:\Users\crowe.z\Desktop\Programming 1-6\Prog122h(roots+cubes)\Prog122h(roots+cubes)\bin\Debug\Prog122h(roots+cubes).exe
+C:\Users\crowe.z\Desktop\Programming 1-6\Prog122h(roots+cubes)\Prog122h(roots+cubes)\bin\Debug\Prog122h(roots+cubes).dll
+C:\Users\crowe.z\Desktop\Programming 1-6\Prog122h(roots+cubes)\Prog122h(roots+cubes)\bin\Debug\IronPython.dll
+C:\Users\crowe.z\Desktop\Programming 1-6\Prog122h(roots+cubes)\Prog122h(roots+cubes)\bin\Debug\IronPython.Modules.dll
+C:\Users\crowe.z\Desktop\Programming 1-6\Prog122h(roots+cubes)\Prog122h(roots+cubes)\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\crowe.z\Desktop\Programming 1-6\Prog122h(roots+cubes)\Prog122h(roots+cubes)\bin\Debug\Microsoft.Scripting.dll
+C:\Users\crowe.z\Desktop\Programming 1-6\Prog122h(roots+cubes)\Prog122h(roots+cubes)\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\crowe.z\Desktop\Programming 1-6\Prog122h(roots+cubes)\Prog122h(roots+cubes)\obj\Debug\Prog122h(roots+cubes).pyprojResolveAssemblyReference.cache
+C:\Users\crowe.z\Desktop\Programming 1-6\Prog122h(roots+cubes)\Prog122h(roots+cubes)\obj\Debug\Prog122h_roots_cubes_.MainForm.resources
+C:\Users\crowe.z\Desktop\Programming 1-6\Prog122h(roots+cubes)\Prog122h(roots+cubes)\obj\Debug\Prog122h(roots+cubes).pyproj.GenerateResource.Cache
+C:\Users\crowe.z\Desktop\Programming 1-6\Prog122h(roots+cubes)\Prog122h(roots+cubes)\obj\Debug\Prog122h(roots+cubes).exe

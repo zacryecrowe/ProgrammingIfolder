@@ -1,0 +1,14 @@
+C:\Users\crowe.z\Desktop\Programming 1-6\ProgrammingFinal (Pong Redux)\obj\x86\Debug\ProgrammingFinal (Pong Redux).pyprojResolveAssemblyReference.cache
+C:\Users\crowe.z\Desktop\Programming 1-6\ProgrammingFinal (Pong Redux)\obj\x86\Debug\ProgrammingFinal__Pong_Redux_.MainForm.resources
+C:\Users\crowe.z\Desktop\Programming 1-6\ProgrammingFinal (Pong Redux)\obj\x86\Debug\ProgrammingFinal (Pong Redux).pyproj.GenerateResource.Cache
+C:\Users\crowe.z\Desktop\Programming 1-6\ProgrammingFinal (Pong Redux)\bin\Debug\ProgrammingFinal (Pong Redux).exe.config
+C:\Users\crowe.z\Desktop\Programming 1-6\ProgrammingFinal (Pong Redux)\bin\Debug\ProgrammingFinal (Pong Redux).exe
+C:\Users\crowe.z\Desktop\Programming 1-6\ProgrammingFinal (Pong Redux)\bin\Debug\ProgrammingFinal (Pong Redux).dll
+C:\Users\crowe.z\Desktop\Programming 1-6\ProgrammingFinal (Pong Redux)\bin\Debug\IronPython.dll
+C:\Users\crowe.z\Desktop\Programming 1-6\ProgrammingFinal (Pong Redux)\bin\Debug\IronPython.Modules.dll
+C:\Users\crowe.z\Desktop\Programming 1-6\ProgrammingFinal (Pong Redux)\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\crowe.z\Desktop\Programming 1-6\ProgrammingFinal (Pong Redux)\bin\Debug\Microsoft.Scripting.dll
+C:\Users\crowe.z\Desktop\Programming 1-6\ProgrammingFinal (Pong Redux)\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\crowe.z\Desktop\Programming 1-6\ProgrammingFinal (Pong Redux)\bin\Debug\IronPython.xml
+C:\Users\crowe.z\Desktop\Programming 1-6\ProgrammingFinal (Pong Redux)\bin\Debug\IronPython.Modules.xml
+C:\Users\crowe.z\Desktop\Programming 1-6\ProgrammingFinal (Pong Redux)\obj\x86\Debug\ProgrammingFinal (Pong Redux).exe

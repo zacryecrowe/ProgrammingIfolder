@@ -1,0 +1,14 @@
+C:\Users\crowe.z\Desktop\Programming 1-6\Prog122i(Cuberoots of neg numbers)\bin\Debug\Prog122i(Cuberoots of neg numbers).exe.config
+C:\Users\crowe.z\Desktop\Programming 1-6\Prog122i(Cuberoots of neg numbers)\bin\Debug\Prog122i(Cuberoots of neg numbers).exe
+C:\Users\crowe.z\Desktop\Programming 1-6\Prog122i(Cuberoots of neg numbers)\bin\Debug\Prog122i(Cuberoots of neg numbers).dll
+C:\Users\crowe.z\Desktop\Programming 1-6\Prog122i(Cuberoots of neg numbers)\bin\Debug\IronPython.dll
+C:\Users\crowe.z\Desktop\Programming 1-6\Prog122i(Cuberoots of neg numbers)\bin\Debug\IronPython.Modules.dll
+C:\Users\crowe.z\Desktop\Programming 1-6\Prog122i(Cuberoots of neg numbers)\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\crowe.z\Desktop\Programming 1-6\Prog122i(Cuberoots of neg numbers)\bin\Debug\Microsoft.Scripting.dll
+C:\Users\crowe.z\Desktop\Programming 1-6\Prog122i(Cuberoots of neg numbers)\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\crowe.z\Desktop\Programming 1-6\Prog122i(Cuberoots of neg numbers)\bin\Debug\IronPython.xml
+C:\Users\crowe.z\Desktop\Programming 1-6\Prog122i(Cuberoots of neg numbers)\bin\Debug\IronPython.Modules.xml
+C:\Users\crowe.z\Desktop\Programming 1-6\Prog122i(Cuberoots of neg numbers)\obj\x86\Debug\Prog122i(Cuberoots of neg numbers).pyprojResolveAssemblyReference.cache
+C:\Users\crowe.z\Desktop\Programming 1-6\Prog122i(Cuberoots of neg numbers)\obj\x86\Debug\Prog122i_Cuberoots_of_neg_numbers_.MainForm.resources
+C:\Users\crowe.z\Desktop\Programming 1-6\Prog122i(Cuberoots of neg numbers)\obj\x86\Debug\Prog122i(Cuberoots of neg numbers).pyproj.GenerateResource.Cache
+C:\Users\crowe.z\Desktop\Programming 1-6\Prog122i(Cuberoots of neg numbers)\obj\x86\Debug\Prog122i(Cuberoots of neg numbers).exe

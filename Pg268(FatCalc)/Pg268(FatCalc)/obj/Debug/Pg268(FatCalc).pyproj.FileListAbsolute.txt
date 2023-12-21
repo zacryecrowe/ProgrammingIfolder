@@ -1,0 +1,12 @@
+C:\Users\crowe.z\Desktop\Programming 1-6\Pg268(FatCalc)\Pg268(FatCalc)\obj\Debug\Pg268(FatCalc).pyprojResolveAssemblyReference.cache
+C:\Users\crowe.z\Desktop\Programming 1-6\Pg268(FatCalc)\Pg268(FatCalc)\obj\Debug\Pg268_FatCalc_.MainForm.resources
+C:\Users\crowe.z\Desktop\Programming 1-6\Pg268(FatCalc)\Pg268(FatCalc)\obj\Debug\Pg268(FatCalc).pyproj.GenerateResource.Cache
+C:\Users\crowe.z\Desktop\Programming 1-6\Pg268(FatCalc)\Pg268(FatCalc)\bin\Debug\Pg268(FatCalc).exe.config
+C:\Users\crowe.z\Desktop\Programming 1-6\Pg268(FatCalc)\Pg268(FatCalc)\bin\Debug\Pg268(FatCalc).exe
+C:\Users\crowe.z\Desktop\Programming 1-6\Pg268(FatCalc)\Pg268(FatCalc)\bin\Debug\Pg268(FatCalc).dll
+C:\Users\crowe.z\Desktop\Programming 1-6\Pg268(FatCalc)\Pg268(FatCalc)\bin\Debug\IronPython.dll
+C:\Users\crowe.z\Desktop\Programming 1-6\Pg268(FatCalc)\Pg268(FatCalc)\bin\Debug\IronPython.Modules.dll
+C:\Users\crowe.z\Desktop\Programming 1-6\Pg268(FatCalc)\Pg268(FatCalc)\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\crowe.z\Desktop\Programming 1-6\Pg268(FatCalc)\Pg268(FatCalc)\bin\Debug\Microsoft.Scripting.dll
+C:\Users\crowe.z\Desktop\Programming 1-6\Pg268(FatCalc)\Pg268(FatCalc)\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\crowe.z\Desktop\Programming 1-6\Pg268(FatCalc)\Pg268(FatCalc)\obj\Debug\Pg268(FatCalc).exe

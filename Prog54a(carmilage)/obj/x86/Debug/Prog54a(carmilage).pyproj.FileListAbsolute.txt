@@ -1,0 +1,14 @@
+C:\Users\crowe.z\Desktop\Programming 1-6\Prog54a(carmilage)\bin\Debug\Prog54a(carmilage).exe.config
+C:\Users\crowe.z\Desktop\Programming 1-6\Prog54a(carmilage)\bin\Debug\Prog54a(carmilage).exe
+C:\Users\crowe.z\Desktop\Programming 1-6\Prog54a(carmilage)\bin\Debug\Prog54a(carmilage).dll
+C:\Users\crowe.z\Desktop\Programming 1-6\Prog54a(carmilage)\bin\Debug\IronPython.dll
+C:\Users\crowe.z\Desktop\Programming 1-6\Prog54a(carmilage)\bin\Debug\IronPython.Modules.dll
+C:\Users\crowe.z\Desktop\Programming 1-6\Prog54a(carmilage)\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\crowe.z\Desktop\Programming 1-6\Prog54a(carmilage)\bin\Debug\Microsoft.Scripting.dll
+C:\Users\crowe.z\Desktop\Programming 1-6\Prog54a(carmilage)\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\crowe.z\Desktop\Programming 1-6\Prog54a(carmilage)\bin\Debug\IronPython.xml
+C:\Users\crowe.z\Desktop\Programming 1-6\Prog54a(carmilage)\bin\Debug\IronPython.Modules.xml
+C:\Users\crowe.z\Desktop\Programming 1-6\Prog54a(carmilage)\obj\x86\Debug\Prog54a(carmilage).pyprojResolveAssemblyReference.cache
+C:\Users\crowe.z\Desktop\Programming 1-6\Prog54a(carmilage)\obj\x86\Debug\Prog54a_carmilage_.MainForm.resources
+C:\Users\crowe.z\Desktop\Programming 1-6\Prog54a(carmilage)\obj\x86\Debug\Prog54a(carmilage).pyproj.GenerateResource.Cache
+C:\Users\crowe.z\Desktop\Programming 1-6\Prog54a(carmilage)\obj\x86\Debug\Prog54a(carmilage).exe

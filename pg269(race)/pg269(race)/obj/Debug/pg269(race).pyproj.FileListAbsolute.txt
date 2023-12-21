@@ -1,0 +1,12 @@
+C:\Users\crowe.z\Desktop\Programming 1-6\pg269(race)\pg269(race)\obj\Debug\pg269(race).pyprojResolveAssemblyReference.cache
+C:\Users\crowe.z\Desktop\Programming 1-6\pg269(race)\pg269(race)\obj\Debug\pg269_race_.MainForm.resources
+C:\Users\crowe.z\Desktop\Programming 1-6\pg269(race)\pg269(race)\obj\Debug\pg269(race).pyproj.GenerateResource.Cache
+C:\Users\crowe.z\Desktop\Programming 1-6\pg269(race)\pg269(race)\bin\Debug\pg269(race).exe.config
+C:\Users\crowe.z\Desktop\Programming 1-6\pg269(race)\pg269(race)\bin\Debug\pg269(race).exe
+C:\Users\crowe.z\Desktop\Programming 1-6\pg269(race)\pg269(race)\bin\Debug\pg269(race).dll
+C:\Users\crowe.z\Desktop\Programming 1-6\pg269(race)\pg269(race)\bin\Debug\IronPython.dll
+C:\Users\crowe.z\Desktop\Programming 1-6\pg269(race)\pg269(race)\bin\Debug\IronPython.Modules.dll
+C:\Users\crowe.z\Desktop\Programming 1-6\pg269(race)\pg269(race)\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\crowe.z\Desktop\Programming 1-6\pg269(race)\pg269(race)\bin\Debug\Microsoft.Scripting.dll
+C:\Users\crowe.z\Desktop\Programming 1-6\pg269(race)\pg269(race)\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\crowe.z\Desktop\Programming 1-6\pg269(race)\pg269(race)\obj\Debug\pg269(race).exe

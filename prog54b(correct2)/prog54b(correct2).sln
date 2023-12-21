@@ -1,0 +1,18 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# SharpDevelop 4.4
+Project("{BD8E9625-815A-4BDB-B228-5D4F9C2541A1}") = "prog54b(correct2)", "prog54b(correct2)\prog54b(correct2).rbproj", "{B743BBD8-0AB5-460C-9433-132728ADECF7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B743BBD8-0AB5-460C-9433-132728ADECF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B743BBD8-0AB5-460C-9433-132728ADECF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B743BBD8-0AB5-460C-9433-132728ADECF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B743BBD8-0AB5-460C-9433-132728ADECF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,12 @@
+C:\Users\crowe.z\Desktop\Programming 1-6\Pg153(SalaryCalc)\Pg153(SalaryCalc)\bin\Debug\Pg153(SalaryCalc).exe.config
+C:\Users\crowe.z\Desktop\Programming 1-6\Pg153(SalaryCalc)\Pg153(SalaryCalc)\bin\Debug\Pg153(SalaryCalc).exe
+C:\Users\crowe.z\Desktop\Programming 1-6\Pg153(SalaryCalc)\Pg153(SalaryCalc)\bin\Debug\Pg153(SalaryCalc).dll
+C:\Users\crowe.z\Desktop\Programming 1-6\Pg153(SalaryCalc)\Pg153(SalaryCalc)\bin\Debug\IronPython.dll
+C:\Users\crowe.z\Desktop\Programming 1-6\Pg153(SalaryCalc)\Pg153(SalaryCalc)\bin\Debug\IronPython.Modules.dll
+C:\Users\crowe.z\Desktop\Programming 1-6\Pg153(SalaryCalc)\Pg153(SalaryCalc)\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\crowe.z\Desktop\Programming 1-6\Pg153(SalaryCalc)\Pg153(SalaryCalc)\bin\Debug\Microsoft.Scripting.dll
+C:\Users\crowe.z\Desktop\Programming 1-6\Pg153(SalaryCalc)\Pg153(SalaryCalc)\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\crowe.z\Desktop\Programming 1-6\Pg153(SalaryCalc)\Pg153(SalaryCalc)\obj\Debug\Pg153(SalaryCalc).pyprojResolveAssemblyReference.cache
+C:\Users\crowe.z\Desktop\Programming 1-6\Pg153(SalaryCalc)\Pg153(SalaryCalc)\obj\Debug\Pg153_SalaryCalc_.MainForm.resources
+C:\Users\crowe.z\Desktop\Programming 1-6\Pg153(SalaryCalc)\Pg153(SalaryCalc)\obj\Debug\Pg153(SalaryCalc).pyproj.GenerateResource.Cache
+C:\Users\crowe.z\Desktop\Programming 1-6\Pg153(SalaryCalc)\Pg153(SalaryCalc)\obj\Debug\Pg153(SalaryCalc).exe

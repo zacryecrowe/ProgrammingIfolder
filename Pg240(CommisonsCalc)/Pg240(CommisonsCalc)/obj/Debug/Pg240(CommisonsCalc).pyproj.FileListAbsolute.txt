@@ -1,0 +1,12 @@
+C:\Users\crowe.z\Desktop\Programming 1-6\Pg240(CommisonsCalc)\Pg240(CommisonsCalc)\bin\Debug\Pg240(CommisonsCalc).exe.config
+C:\Users\crowe.z\Desktop\Programming 1-6\Pg240(CommisonsCalc)\Pg240(CommisonsCalc)\bin\Debug\Pg240(CommisonsCalc).exe
+C:\Users\crowe.z\Desktop\Programming 1-6\Pg240(CommisonsCalc)\Pg240(CommisonsCalc)\bin\Debug\Pg240(CommisonsCalc).dll
+C:\Users\crowe.z\Desktop\Programming 1-6\Pg240(CommisonsCalc)\Pg240(CommisonsCalc)\bin\Debug\IronPython.dll
+C:\Users\crowe.z\Desktop\Programming 1-6\Pg240(CommisonsCalc)\Pg240(CommisonsCalc)\bin\Debug\IronPython.Modules.dll
+C:\Users\crowe.z\Desktop\Programming 1-6\Pg240(CommisonsCalc)\Pg240(CommisonsCalc)\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\crowe.z\Desktop\Programming 1-6\Pg240(CommisonsCalc)\Pg240(CommisonsCalc)\bin\Debug\Microsoft.Scripting.dll
+C:\Users\crowe.z\Desktop\Programming 1-6\Pg240(CommisonsCalc)\Pg240(CommisonsCalc)\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\crowe.z\Desktop\Programming 1-6\Pg240(CommisonsCalc)\Pg240(CommisonsCalc)\obj\Debug\Pg240(CommisonsCalc).pyprojResolveAssemblyReference.cache
+C:\Users\crowe.z\Desktop\Programming 1-6\Pg240(CommisonsCalc)\Pg240(CommisonsCalc)\obj\Debug\Pg240_CommisonsCalc_.MainForm.resources
+C:\Users\crowe.z\Desktop\Programming 1-6\Pg240(CommisonsCalc)\Pg240(CommisonsCalc)\obj\Debug\Pg240(CommisonsCalc).pyproj.GenerateResource.Cache
+C:\Users\crowe.z\Desktop\Programming 1-6\Pg240(CommisonsCalc)\Pg240(CommisonsCalc)\obj\Debug\Pg240(CommisonsCalc).exe

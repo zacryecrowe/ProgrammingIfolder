@@ -1,0 +1,14 @@
+C:\Users\crowe.z\Desktop\Programming 1-6\ProgrammingI_Final\bin\Debug\ProgrammingI_Final.exe.config
+C:\Users\crowe.z\Desktop\Programming 1-6\ProgrammingI_Final\bin\Debug\ProgrammingI_Final.exe
+C:\Users\crowe.z\Desktop\Programming 1-6\ProgrammingI_Final\bin\Debug\ProgrammingI_Final.dll
+C:\Users\crowe.z\Desktop\Programming 1-6\ProgrammingI_Final\bin\Debug\IronPython.dll
+C:\Users\crowe.z\Desktop\Programming 1-6\ProgrammingI_Final\bin\Debug\IronPython.Modules.dll
+C:\Users\crowe.z\Desktop\Programming 1-6\ProgrammingI_Final\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\crowe.z\Desktop\Programming 1-6\ProgrammingI_Final\bin\Debug\Microsoft.Scripting.dll
+C:\Users\crowe.z\Desktop\Programming 1-6\ProgrammingI_Final\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\crowe.z\Desktop\Programming 1-6\ProgrammingI_Final\bin\Debug\IronPython.xml
+C:\Users\crowe.z\Desktop\Programming 1-6\ProgrammingI_Final\bin\Debug\IronPython.Modules.xml
+C:\Users\crowe.z\Desktop\Programming 1-6\ProgrammingI_Final\obj\x86\Debug\ProgrammingI_Final.pyprojResolveAssemblyReference.cache
+C:\Users\crowe.z\Desktop\Programming 1-6\ProgrammingI_Final\obj\x86\Debug\ProgrammingI_Final.MainForm.resources
+C:\Users\crowe.z\Desktop\Programming 1-6\ProgrammingI_Final\obj\x86\Debug\ProgrammingI_Final.pyproj.GenerateResource.Cache
+C:\Users\crowe.z\Desktop\Programming 1-6\ProgrammingI_Final\obj\x86\Debug\ProgrammingI_Final.exe

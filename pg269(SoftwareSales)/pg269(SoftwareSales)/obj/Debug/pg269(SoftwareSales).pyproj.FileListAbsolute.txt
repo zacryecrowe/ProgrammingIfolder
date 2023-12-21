@@ -1,0 +1,12 @@
+C:\Users\crowe.z\Desktop\Programming 1-6\pg269(SoftwareSales)\pg269(SoftwareSales)\obj\Debug\pg269(SoftwareSales).pyprojResolveAssemblyReference.cache
+C:\Users\crowe.z\Desktop\Programming 1-6\pg269(SoftwareSales)\pg269(SoftwareSales)\obj\Debug\pg269_SoftwareSales_.MainForm.resources
+C:\Users\crowe.z\Desktop\Programming 1-6\pg269(SoftwareSales)\pg269(SoftwareSales)\obj\Debug\pg269(SoftwareSales).pyproj.GenerateResource.Cache
+C:\Users\crowe.z\Desktop\Programming 1-6\pg269(SoftwareSales)\pg269(SoftwareSales)\bin\Debug\pg269(SoftwareSales).exe.config
+C:\Users\crowe.z\Desktop\Programming 1-6\pg269(SoftwareSales)\pg269(SoftwareSales)\bin\Debug\pg269(SoftwareSales).exe
+C:\Users\crowe.z\Desktop\Programming 1-6\pg269(SoftwareSales)\pg269(SoftwareSales)\bin\Debug\pg269(SoftwareSales).dll
+C:\Users\crowe.z\Desktop\Programming 1-6\pg269(SoftwareSales)\pg269(SoftwareSales)\bin\Debug\IronPython.dll
+C:\Users\crowe.z\Desktop\Programming 1-6\pg269(SoftwareSales)\pg269(SoftwareSales)\bin\Debug\IronPython.Modules.dll
+C:\Users\crowe.z\Desktop\Programming 1-6\pg269(SoftwareSales)\pg269(SoftwareSales)\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\crowe.z\Desktop\Programming 1-6\pg269(SoftwareSales)\pg269(SoftwareSales)\bin\Debug\Microsoft.Scripting.dll
+C:\Users\crowe.z\Desktop\Programming 1-6\pg269(SoftwareSales)\pg269(SoftwareSales)\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\crowe.z\Desktop\Programming 1-6\pg269(SoftwareSales)\pg269(SoftwareSales)\obj\Debug\pg269(SoftwareSales).exe

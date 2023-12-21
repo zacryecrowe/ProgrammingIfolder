@@ -1,0 +1,12 @@
+C:\Users\crowe.z\Desktop\Programming 1-6\Pg186(stadiumseating)\Pg186(stadiumseating)\bin\Debug\Pg186(stadiumseating).exe.config
+C:\Users\crowe.z\Desktop\Programming 1-6\Pg186(stadiumseating)\Pg186(stadiumseating)\bin\Debug\Pg186(stadiumseating).exe
+C:\Users\crowe.z\Desktop\Programming 1-6\Pg186(stadiumseating)\Pg186(stadiumseating)\bin\Debug\Pg186(stadiumseating).dll
+C:\Users\crowe.z\Desktop\Programming 1-6\Pg186(stadiumseating)\Pg186(stadiumseating)\bin\Debug\IronPython.dll
+C:\Users\crowe.z\Desktop\Programming 1-6\Pg186(stadiumseating)\Pg186(stadiumseating)\bin\Debug\IronPython.Modules.dll
+C:\Users\crowe.z\Desktop\Programming 1-6\Pg186(stadiumseating)\Pg186(stadiumseating)\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\crowe.z\Desktop\Programming 1-6\Pg186(stadiumseating)\Pg186(stadiumseating)\bin\Debug\Microsoft.Scripting.dll
+C:\Users\crowe.z\Desktop\Programming 1-6\Pg186(stadiumseating)\Pg186(stadiumseating)\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\crowe.z\Desktop\Programming 1-6\Pg186(stadiumseating)\Pg186(stadiumseating)\obj\Debug\Pg186(stadiumseating).pyprojResolveAssemblyReference.cache
+C:\Users\crowe.z\Desktop\Programming 1-6\Pg186(stadiumseating)\Pg186(stadiumseating)\obj\Debug\Pg186_stadiumseating_.MainForm.resources
+C:\Users\crowe.z\Desktop\Programming 1-6\Pg186(stadiumseating)\Pg186(stadiumseating)\obj\Debug\Pg186(stadiumseating).pyproj.GenerateResource.Cache
+C:\Users\crowe.z\Desktop\Programming 1-6\Pg186(stadiumseating)\Pg186(stadiumseating)\obj\Debug\Pg186(stadiumseating).exe

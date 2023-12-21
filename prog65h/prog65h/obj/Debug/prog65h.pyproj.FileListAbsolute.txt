@@ -1,0 +1,12 @@
+C:\Users\crowe.z\Desktop\Programming 1-6\prog65h\prog65h\bin\Debug\prog65h.exe.config
+C:\Users\crowe.z\Desktop\Programming 1-6\prog65h\prog65h\bin\Debug\prog65h.exe
+C:\Users\crowe.z\Desktop\Programming 1-6\prog65h\prog65h\bin\Debug\prog65h.dll
+C:\Users\crowe.z\Desktop\Programming 1-6\prog65h\prog65h\bin\Debug\IronPython.dll
+C:\Users\crowe.z\Desktop\Programming 1-6\prog65h\prog65h\bin\Debug\IronPython.Modules.dll
+C:\Users\crowe.z\Desktop\Programming 1-6\prog65h\prog65h\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\crowe.z\Desktop\Programming 1-6\prog65h\prog65h\bin\Debug\Microsoft.Scripting.dll
+C:\Users\crowe.z\Desktop\Programming 1-6\prog65h\prog65h\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\crowe.z\Desktop\Programming 1-6\prog65h\prog65h\obj\Debug\prog65h.pyprojResolveAssemblyReference.cache
+C:\Users\crowe.z\Desktop\Programming 1-6\prog65h\prog65h\obj\Debug\prog65h.MainForm.resources
+C:\Users\crowe.z\Desktop\Programming 1-6\prog65h\prog65h\obj\Debug\prog65h.pyproj.GenerateResource.Cache
+C:\Users\crowe.z\Desktop\Programming 1-6\prog65h\prog65h\obj\Debug\prog65h.exe

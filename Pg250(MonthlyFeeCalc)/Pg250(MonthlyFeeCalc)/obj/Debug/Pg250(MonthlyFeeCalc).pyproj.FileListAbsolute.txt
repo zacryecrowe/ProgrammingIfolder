@@ -1,0 +1,12 @@
+C:\Users\crowe.z\Desktop\Programming 1-6\Pg250(MonthlyFeeCalc)\Pg250(MonthlyFeeCalc)\obj\Debug\Pg250(MonthlyFeeCalc).pyprojResolveAssemblyReference.cache
+C:\Users\crowe.z\Desktop\Programming 1-6\Pg250(MonthlyFeeCalc)\Pg250(MonthlyFeeCalc)\obj\Debug\Pg250_MonthlyFeeCalc_.MainForm.resources
+C:\Users\crowe.z\Desktop\Programming 1-6\Pg250(MonthlyFeeCalc)\Pg250(MonthlyFeeCalc)\obj\Debug\Pg250(MonthlyFeeCalc).pyproj.GenerateResource.Cache
+C:\Users\crowe.z\Desktop\Programming 1-6\Pg250(MonthlyFeeCalc)\Pg250(MonthlyFeeCalc)\bin\Debug\Pg250(MonthlyFeeCalc).exe.config
+C:\Users\crowe.z\Desktop\Programming 1-6\Pg250(MonthlyFeeCalc)\Pg250(MonthlyFeeCalc)\bin\Debug\Pg250(MonthlyFeeCalc).exe
+C:\Users\crowe.z\Desktop\Programming 1-6\Pg250(MonthlyFeeCalc)\Pg250(MonthlyFeeCalc)\bin\Debug\Pg250(MonthlyFeeCalc).dll
+C:\Users\crowe.z\Desktop\Programming 1-6\Pg250(MonthlyFeeCalc)\Pg250(MonthlyFeeCalc)\bin\Debug\IronPython.dll
+C:\Users\crowe.z\Desktop\Programming 1-6\Pg250(MonthlyFeeCalc)\Pg250(MonthlyFeeCalc)\bin\Debug\IronPython.Modules.dll
+C:\Users\crowe.z\Desktop\Programming 1-6\Pg250(MonthlyFeeCalc)\Pg250(MonthlyFeeCalc)\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\crowe.z\Desktop\Programming 1-6\Pg250(MonthlyFeeCalc)\Pg250(MonthlyFeeCalc)\bin\Debug\Microsoft.Scripting.dll
+C:\Users\crowe.z\Desktop\Programming 1-6\Pg250(MonthlyFeeCalc)\Pg250(MonthlyFeeCalc)\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\crowe.z\Desktop\Programming 1-6\Pg250(MonthlyFeeCalc)\Pg250(MonthlyFeeCalc)\obj\Debug\Pg250(MonthlyFeeCalc).exe
