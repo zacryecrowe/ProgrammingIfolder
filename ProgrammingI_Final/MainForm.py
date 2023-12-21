@@ -33,7 +33,7 @@ class MainForm(Form):
 		self._player.BackColor = System.Drawing.SystemColors.ActiveBorder
 		self._player.Location = System.Drawing.Point(426, 320)
 		self._player.Name = "player"
-		self._player.Size = System.Drawing.Size(33, 95)
+		self._player.Size = System.Drawing.Size(28, 67)
 		self._player.TabIndex = 1
 		self._player.Text = "player"
 		# 
@@ -46,9 +46,9 @@ class MainForm(Form):
 		# label2
 		# 
 		self._label2.BackColor = System.Drawing.SystemColors.ButtonHighlight
-		self._label2.Location = System.Drawing.Point(426, 106)
+		self._label2.Location = System.Drawing.Point(301, 9)
 		self._label2.Name = "label2"
-		self._label2.Size = System.Drawing.Size(100, 23)
+		self._label2.Size = System.Drawing.Size(334, 52)
 		self._label2.TabIndex = 2
 		self._label2.Text = "Output"
 		# 
@@ -73,21 +73,16 @@ class MainForm(Form):
 		#1 for cardinal 
 		#0.707 for horizontal 
 		if self.playflagleft == True: 
+			self._player.Left -= 3
 			pass
 		elif self.playflagup == True: 
 			self._player.Top -= 3
-			self._label2.Text = "pressing W"
+			pass 
 		elif self.playflagright == True:
+			self._player.Left += 3
 			pass
 		elif self.playflagdown == True: 
-			pass
-		elif self.playflagleft == True and self.playflagup == True: 
-			pass
-		elif self.playflagup == True and self.playflagright == True:
-			pass 
-		elif self.playflagright == True and self.playflagdown == True:
-			pass 
-		elif self.playflagdown == True and self.playflagleft == True:
+			self._player.Top += 3
 			pass
 
 	def MainFormLoad(self, sender, e):
@@ -102,7 +97,6 @@ class MainForm(Form):
 			self.playflagleft = True 
 		elif e.KeyCode == Keys.W:
 			self.playflagup = True 
-			#self._label2.Text = "pressing W"
 		elif e.KeyCode == Keys.D:
 			self.playflagright = True 
 		elif e.KeyCode == Keys.S:
@@ -115,7 +109,6 @@ class MainForm(Form):
 			self.playflagleft = False 
 		elif e.KeyCode == Keys.W:
 			self.playflagup = False 
-			#self._label2.Text = "pressing W"
 		elif e.KeyCode == Keys.D:
 			self.playflagright = False 
 		elif e.KeyCode == Keys.S:
