@@ -12,3 +12,4 @@ C:\Users\crowe.z\Desktop\Programming 1-6\ProgrammingI_Final\obj\x86\Debug\Progra
 C:\Users\crowe.z\Desktop\Programming 1-6\ProgrammingI_Final\obj\x86\Debug\ProgrammingI_Final.MainForm.resources
 C:\Users\crowe.z\Desktop\Programming 1-6\ProgrammingI_Final\obj\x86\Debug\ProgrammingI_Final.pyproj.GenerateResource.Cache
 C:\Users\crowe.z\Desktop\Programming 1-6\ProgrammingI_Final\obj\x86\Debug\ProgrammingI_Final.exe
+C:\Users\crowe.z\Desktop\Programming 1-6\ProgrammingI_Final\obj\x86\Debug\ProgrammingI_Final.Menus.resources

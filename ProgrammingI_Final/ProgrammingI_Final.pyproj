@@ -60,6 +60,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainForm.py" />
+    <Compile Include="Menus.py" />
     <Compile Include="Program.py" />
   </ItemGroup>
   <ItemGroup>
@@ -68,6 +69,9 @@
   <ItemGroup>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.py</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menus.resx">
+      <DependentUpon>Menus.py</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(PythonBinPath)\SharpDevelop.Build.Python.targets" />

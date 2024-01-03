@@ -3,15 +3,24 @@ import System.Drawing
 import System.Windows.Forms
 from System.Drawing import *
 from System.Windows.Forms import *
-
+from Menus import * 
 class MainForm(Form):
 	def __init__(self):
 		self.InitializeComponent()
+		#ToggleFlags
 		self.playflagleft = False 
 		self.playflagright = False
 		self.playflagup = False
-		self.playflagdown = False 
-		
+		self.playflagdown = False
+		self.menuflag = False 
+		#######Game Vars
+		#distance to objects where they become interactable 
+		self.intdist = 125
+		#Center of Objects for Prox function. Each is first 3 letters of word with loc after
+		self.cabloc = [self._Cabnet.Bottom-25, self._Cabnet.Right-50]
+		self.radio = [self._Radio.Bottom-25, self._Radio.Right-50]		
+		###
+		self.menu = Menus(self)
 	def InitializeComponent(self):
 		self._components = System.ComponentModel.Container()
 		self._label1 = System.Windows.Forms.Label()
@@ -67,10 +76,10 @@ class MainForm(Form):
 		# 
 		self._Cabnet.BackColor = System.Drawing.SystemColors.AppWorkspace
 		self._Cabnet.ForeColor = System.Drawing.Color.Black
-		self._Cabnet.Location = System.Drawing.Point(544, 9)
+		self._Cabnet.Location = System.Drawing.Point(532, 9)
 		self._Cabnet.Name = "Cabnet"
 		self._Cabnet.RightToLeft = System.Windows.Forms.RightToLeft.No
-		self._Cabnet.Size = System.Drawing.Size(88, 40)
+		self._Cabnet.Size = System.Drawing.Size(100, 50)
 		self._Cabnet.TabIndex = 3
 		self._Cabnet.Text = "Medical Supplies"
 		self._Cabnet.Click += self.CabnetClick
@@ -79,10 +88,10 @@ class MainForm(Form):
 		# 
 		self._Radio.BackColor = System.Drawing.SystemColors.AppWorkspace
 		self._Radio.ForeColor = System.Drawing.Color.Black
-		self._Radio.Location = System.Drawing.Point(884, 90)
+		self._Radio.Location = System.Drawing.Point(872, 90)
 		self._Radio.Name = "Radio"
 		self._Radio.RightToLeft = System.Windows.Forms.RightToLeft.No
-		self._Radio.Size = System.Drawing.Size(88, 43)
+		self._Radio.Size = System.Drawing.Size(100, 50)
 		self._Radio.TabIndex = 4
 		self._Radio.Text = "Medical Requests"
 		self._Radio.Click += self.Label4Click
@@ -90,9 +99,9 @@ class MainForm(Form):
 		# progressBar1
 		# 
 		self._progressBar1.BackColor = System.Drawing.SystemColors.ActiveCaptionText
-		self._progressBar1.Location = System.Drawing.Point(884, 64)
+		self._progressBar1.Location = System.Drawing.Point(872, 64)
 		self._progressBar1.Name = "progressBar1"
-		self._progressBar1.Size = System.Drawing.Size(88, 23)
+		self._progressBar1.Size = System.Drawing.Size(100, 23)
 		self._progressBar1.TabIndex = 5
 		# 
 		# DebugBox
@@ -124,26 +133,27 @@ class MainForm(Form):
 
 	def Proximity(self, X1, X2, Y1, Y2): 
 		d = math.sqrt(((X2-X1)**2) + ((Y2-Y1)**2))
-		self._DebugBox.Text = str(d)
+		return d 
 
-		
+	def unpause(self):
+		self.menuflag = False 			
 
 	def TscrollTick(self, sender, e):
-		
-		#1 for cardinal 
-		#0.707 for horizontal 
-		if self.playflagleft == True: 
-			self._player.Left -= 3
-			pass
-		elif self.playflagup == True: 
-			self._player.Top -= 3
+		if self.menuflag == False: 
+			if self.playflagleft == True: 
+				self._player.Left -= 3
+				pass
+			elif self.playflagup == True: 
+				self._player.Top -= 3
+				pass 
+			elif self.playflagright == True:
+				self._player.Left += 3
+				pass
+			elif self.playflagdown == True: 
+				self._player.Top += 3
+				pass
+		else: 
 			pass 
-		elif self.playflagright == True:
-			self._player.Left += 3
-			pass
-		elif self.playflagdown == True: 
-			self._player.Top += 3
-			pass
 
 	def MainFormLoad(self, sender, e):
 		pass
@@ -185,5 +195,10 @@ class MainForm(Form):
 		pass
 
 	def CabnetClick(self, sender, e):
-		return self.Proximity(self._player.Top+32, self._Cabnet.Bottom-20, self._player.Right-16, self._Cabnet.Left+40)
+		dist = self.Proximity(self._player.Top+32, self.cabloc[0], self._player.Right-16, self.cabloc[1])
+		if dist <= self.intdist:
+			self.menu.Show()
+			self.menuflag = True 
+		else:
+			self._DebugBox.Text = "Too far away!" 
 		pass
