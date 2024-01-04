@@ -22,18 +22,21 @@ class MainForm(Form):
 		self.radloc = [self._Radio.Bottom-25, self._Radio.Right-50]		
 		###
 		self.menu = Menus(self)
-		self.menu2 = Menus2(self) 
+		self.menu2 = Menus2(self)
+		self.inv = Inv(self) 
 	def InitializeComponent(self):
 		self._components = System.ComponentModel.Container()
 		self._label1 = System.Windows.Forms.Label()
 		self._player = System.Windows.Forms.Label()
 		self._tscroll = System.Windows.Forms.Timer(self._components)
-		self._CabnetInv = System.Windows.Forms.Label()
+		self._Shelf = System.Windows.Forms.Label()
 		self._Tspawn = System.Windows.Forms.Timer(self._components)
 		self._Cabnet = System.Windows.Forms.Label()
 		self._Radio = System.Windows.Forms.Label()
 		self._progressBar1 = System.Windows.Forms.ProgressBar()
 		self._DebugBox = System.Windows.Forms.Label()
+		self._Shelf2 = System.Windows.Forms.Label()
+		self._Shelf3 = System.Windows.Forms.Label()
 		self.SuspendLayout()
 		# 
 		# label1
@@ -59,15 +62,15 @@ class MainForm(Form):
 		self._tscroll.Interval = 10
 		self._tscroll.Tick += self.TscrollTick
 		# 
-		# CabnetInv
+		# Shelf
 		# 
-		self._CabnetInv.BackColor = System.Drawing.SystemColors.ButtonHighlight
-		self._CabnetInv.Location = System.Drawing.Point(638, 9)
-		self._CabnetInv.Name = "CabnetInv"
-		self._CabnetInv.Size = System.Drawing.Size(334, 52)
-		self._CabnetInv.TabIndex = 2
-		self._CabnetInv.Text = "XBX"
-		self._CabnetInv.Click += self.Label2Click
+		self._Shelf.BackColor = System.Drawing.SystemColors.ButtonHighlight
+		self._Shelf.Location = System.Drawing.Point(638, 9)
+		self._Shelf.Name = "Shelf"
+		self._Shelf.Size = System.Drawing.Size(334, 23)
+		self._Shelf.TabIndex = 2
+		self._Shelf.Text = "XBX"
+		self._Shelf.Click += self.Label2Click
 		# 
 		# Tspawn
 		# 
@@ -78,10 +81,10 @@ class MainForm(Form):
 		# 
 		self._Cabnet.BackColor = System.Drawing.SystemColors.AppWorkspace
 		self._Cabnet.ForeColor = System.Drawing.Color.Black
-		self._Cabnet.Location = System.Drawing.Point(532, 9)
+		self._Cabnet.Location = System.Drawing.Point(577, 9)
 		self._Cabnet.Name = "Cabnet"
 		self._Cabnet.RightToLeft = System.Windows.Forms.RightToLeft.No
-		self._Cabnet.Size = System.Drawing.Size(100, 50)
+		self._Cabnet.Size = System.Drawing.Size(55, 77)
 		self._Cabnet.TabIndex = 3
 		self._Cabnet.Text = "Medical Supplies"
 		self._Cabnet.Click += self.CabnetClick
@@ -90,7 +93,7 @@ class MainForm(Form):
 		# 
 		self._Radio.BackColor = System.Drawing.SystemColors.AppWorkspace
 		self._Radio.ForeColor = System.Drawing.Color.Black
-		self._Radio.Location = System.Drawing.Point(872, 90)
+		self._Radio.Location = System.Drawing.Point(872, 123)
 		self._Radio.Name = "Radio"
 		self._Radio.RightToLeft = System.Windows.Forms.RightToLeft.No
 		self._Radio.Size = System.Drawing.Size(100, 50)
@@ -101,7 +104,7 @@ class MainForm(Form):
 		# progressBar1
 		# 
 		self._progressBar1.BackColor = System.Drawing.SystemColors.ActiveCaptionText
-		self._progressBar1.Location = System.Drawing.Point(872, 64)
+		self._progressBar1.Location = System.Drawing.Point(872, 97)
 		self._progressBar1.Name = "progressBar1"
 		self._progressBar1.Size = System.Drawing.Size(100, 23)
 		self._progressBar1.TabIndex = 5
@@ -115,15 +118,35 @@ class MainForm(Form):
 		self._DebugBox.TabIndex = 6
 		self._DebugBox.Text = "DebugBox"
 		# 
+		# Shelf2
+		# 
+		self._Shelf2.BackColor = System.Drawing.SystemColors.ButtonHighlight
+		self._Shelf2.Location = System.Drawing.Point(638, 36)
+		self._Shelf2.Name = "Shelf2"
+		self._Shelf2.Size = System.Drawing.Size(334, 23)
+		self._Shelf2.TabIndex = 7
+		self._Shelf2.Text = "XBX"
+		# 
+		# Shelf3
+		# 
+		self._Shelf3.BackColor = System.Drawing.SystemColors.ButtonHighlight
+		self._Shelf3.Location = System.Drawing.Point(638, 63)
+		self._Shelf3.Name = "Shelf3"
+		self._Shelf3.Size = System.Drawing.Size(334, 23)
+		self._Shelf3.TabIndex = 8
+		self._Shelf3.Text = "XBX"
+		# 
 		# MainForm
 		# 
 		self.BackColor = System.Drawing.SystemColors.ActiveCaptionText
 		self.ClientSize = System.Drawing.Size(984, 461)
+		self.Controls.Add(self._Shelf3)
+		self.Controls.Add(self._Shelf2)
 		self.Controls.Add(self._DebugBox)
 		self.Controls.Add(self._progressBar1)
 		self.Controls.Add(self._Radio)
 		self.Controls.Add(self._Cabnet)
-		self.Controls.Add(self._CabnetInv)
+		self.Controls.Add(self._Shelf)
 		self.Controls.Add(self._player)
 		self.Controls.Add(self._label1)
 		self.Name = "MainForm"
