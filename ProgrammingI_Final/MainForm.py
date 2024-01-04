@@ -4,6 +4,7 @@ import System.Windows.Forms
 from System.Drawing import *
 from System.Windows.Forms import *
 from Menus import * 
+from Menus2 import * 
 class MainForm(Form):
 	def __init__(self):
 		self.InitializeComponent()
@@ -18,9 +19,10 @@ class MainForm(Form):
 		self.intdist = 125
 		#Center of Objects for Prox function. Each is first 3 letters of word with loc after
 		self.cabloc = [self._Cabnet.Bottom-25, self._Cabnet.Right-50]
-		self.radio = [self._Radio.Bottom-25, self._Radio.Right-50]		
+		self.radloc = [self._Radio.Bottom-25, self._Radio.Right-50]		
 		###
 		self.menu = Menus(self)
+		self.menu2 = Menus2(self) 
 	def InitializeComponent(self):
 		self._components = System.ComponentModel.Container()
 		self._label1 = System.Windows.Forms.Label()
@@ -107,9 +109,9 @@ class MainForm(Form):
 		# DebugBox
 		# 
 		self._DebugBox.BackColor = System.Drawing.SystemColors.ButtonFace
-		self._DebugBox.Location = System.Drawing.Point(366, 105)
+		self._DebugBox.Location = System.Drawing.Point(372, 429)
 		self._DebugBox.Name = "DebugBox"
-		self._DebugBox.Size = System.Drawing.Size(100, 23)
+		self._DebugBox.Size = System.Drawing.Size(260, 23)
 		self._DebugBox.TabIndex = 6
 		self._DebugBox.Text = "DebugBox"
 		# 
@@ -136,7 +138,13 @@ class MainForm(Form):
 		return d 
 
 	def unpause(self):
-		self.menuflag = False 			
+		self.menuflag = False 
+		self.playflagleft = False 
+		self.playflagup = False 
+		self.playflagright = False 
+		self.playflagdown  = False 
+		pass
+		
 
 	def TscrollTick(self, sender, e):
 		if self.menuflag == False: 
@@ -154,6 +162,14 @@ class MainForm(Form):
 				pass
 		else: 
 			pass 
+		if self._player.Top <= 20:
+			self._player.Top += 3
+		elif self._player.Left <= 20:
+			self._player.Left += 3
+		elif self._player.Bottom >= 480:
+			self._player.Top -= 3
+		elif self._player.Left >= 950:
+			self._player.Left -= 3
 
 	def MainFormLoad(self, sender, e):
 		pass
@@ -192,6 +208,11 @@ class MainForm(Form):
 		pass
 
 	def Label4Click(self, sender, e):
+		#Radio click 
+		dist = self.Proximity(self._player.Top+32, self.radloc[0], self._player.Right-16, self.radloc[1])
+		if dist <= self.intdist:
+			self.menu2.Show()
+			self.menuflag = True 
 		pass
 
 	def CabnetClick(self, sender, e):
