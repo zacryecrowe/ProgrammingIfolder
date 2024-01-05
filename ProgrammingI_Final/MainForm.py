@@ -259,6 +259,7 @@ class MainForm(Form):
 		
 		pass
 
+
 	def Label4Click(self, sender, e):
 		#Radio click 
 		dist = self.Proximity(self._player.Top+32, self.radloc[0], self._player.Right-16, self.radloc[1])
@@ -266,6 +267,8 @@ class MainForm(Form):
 			self.menu2.Show()
 			self.menuflag = True 
 		pass
+
+	############################ CABNET FUNCTIONS ###########################################
 
 	def CabnetClick(self, sender, e):
 		dist = self.Proximity(self._player.Top+32, self.cabloc[0], self._player.Right-16, self.cabloc[1])
@@ -275,9 +278,14 @@ class MainForm(Form):
 		else:
 			self._DebugBox.Text = "Too far away!" 
 		pass
-
-	def ProgressBar1Click(self, sender, e):
+	def Cab1Click(self):
+		self.store.band_to_player()
 		pass
+	def Cab2Click(self):
+		pass
+	def Cab3Click(self):
+		pass
+
 	
 	############################ STORAGE FUNCTIONS ###########################################
 	
@@ -299,4 +307,8 @@ class MainForm(Form):
 
 	def UpdateTimerTick(self, sender, e):
 		self.store.storeupdate()
+		pass
+	
+	
+	def ProgressBar1Click(self, sender, e):
 		pass

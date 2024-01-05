@@ -23,10 +23,35 @@ class store(Form):
 		Splint = len(self.shelf3[::])
 		inv = self.playerinv[0]
 		self.myparent.updatestore(Band, Morp, Splint, inv)
+		
+	#______________Player Inv Checker______________
+	
+	def heldcheck(self): 
+		held = self.playerinv[0]
+		if held == "X":
+			return "empty"
+		elif held == "B": 
+			return "Band" 
+		elif held == "M":
+			return "Morp"
+		elif held == "S": 
+			return "Spli"
+	
 	# ______________Bandage Updates______________
-	def band_to_shelf
+	def band_to_shelf(self):
 		pass 
-	def band_to_player
+	def band_to_player(self):
+		inv = self.heldcheck()
+		if inv == "empty": 
+			del self.shelf1[-1]
+			self.playerinv = ["B"]
+		else:
+			self.myparent.storeerror("You are already holding something!")
+			
 		pass 
-	def band_return
+	def band_return(self):
 		pass 
+	
+	#______________Morphine Updates______________
+	
+	#______________Splint Updates Updates______________

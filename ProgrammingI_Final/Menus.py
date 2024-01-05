@@ -84,22 +84,22 @@ class Menus(Form):
 		self.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
 		self.Text = "Menus"
 		self.TopMost = True
-		self.Load += self.MenusLoad
 		self.ResumeLayout(False)
 
 
 	def Button1Click(self, sender, e):
 		self.Hide() 
-		self.myparent.unpause() 
+		self.myparent.unpause()
+		self.myparent.Cab1Click()
 
 	def Button2Click(self, sender, e):
 		self.Hide() 
 		self.myparent.unpause() 
-
+		self.myparent.Cab2Click()
 	def Button3Click(self, sender, e):
 		self.Hide() 
 		self.myparent.unpause() 
-
+		self.myparent.Cab3Click()
 	def Button4Click(self, sender, e):
 		self.Hide() 
 		self.myparent.unpause() 
