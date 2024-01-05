@@ -281,13 +281,20 @@ class MainForm(Form):
 	
 	############################ STORAGE FUNCTIONS ###########################################
 	
-	def updatestore(self, bandage, morphine, splint):
+	def updatestore(self, bandage, morphine, splint, playerinv):
 		band = bandage 
 		morp = morphine 
 		spli = splint 
+		inv = playerinv
 		self._Shelf.Text = str(" B ") * band 
 		self._Shelf2.Text = str(" M ") * morp 
 		self._Shelf3.Text = str(" S ") * spli 
+		self._playerinv.Text = str(inv)
+		
+	def storeerror(self, message): 
+		msg = message 
+		self._DebugBox.Text = str(msg) 
+		
 				 
 
 	def UpdateTimerTick(self, sender, e):
