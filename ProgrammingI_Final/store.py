@@ -36,6 +36,19 @@ class store(Form):
 			return "Morp"
 		elif held == "S": 
 			return "Spli"
+		
+	#______________Return Function, reliant on heldcheck then will select appropriate from below______________
+	
+	def heldreturn(self):
+		held = self.heldcheck()
+		if held == "Band":
+			self.band_return()			 
+		elif held == "Morp":
+			self.morp_return()
+		elif held == "Spli": 
+			self.spli_return()
+		else:
+			self.myparent.storeerror("You are not holding anything to return!")
 	
 	# ______________Bandage Updates______________
 	def band_to_shelf(self):
@@ -50,8 +63,34 @@ class store(Form):
 			
 		pass 
 	def band_return(self):
+		self.shelf1.append("B")
+		self.playerinv = ["X"]
 		pass 
 	
 	#______________Morphine Updates______________
 	
+	def morp_to_player(self):
+		inv = self.heldcheck()
+		if inv == "empty": 
+			del self.shelf2[-1]
+			self.playerinv = ["M"]
+		else:
+			self.myparent.storeerror("You are already holding something!")
+			
+	def morp_return(self):
+		self.shelf2.append("M")
+		self.playerinv = ["X"]
+	
 	#______________Splint Updates Updates______________
+	
+	def spli_to_player(self):
+		inv = self.heldcheck()
+		if inv == "empty": 
+			del self.shelf3[-1]
+			self.playerinv = ["S"]
+		else:
+			self.myparent.storeerror("You are already holding something!")
+			
+	def spli_return(self):
+		self.shelf3.append("S")
+		self.playerinv = ["X"]

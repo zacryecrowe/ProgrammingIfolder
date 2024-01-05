@@ -282,9 +282,13 @@ class MainForm(Form):
 		self.store.band_to_player()
 		pass
 	def Cab2Click(self):
+		self.store.morp_to_player()
 		pass
 	def Cab3Click(self):
+		self.store.spli_to_player()
 		pass
+	def Cab4Click(self):
+		self.store.heldreturn()
 
 	
 	############################ STORAGE FUNCTIONS ###########################################

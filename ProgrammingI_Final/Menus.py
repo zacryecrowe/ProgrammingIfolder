@@ -102,4 +102,5 @@ class Menus(Form):
 		self.myparent.Cab3Click()
 	def Button4Click(self, sender, e):
 		self.Hide() 
-		self.myparent.unpause() 
+		self.myparent.unpause()
+		self.myparent.Cab4Click()		
