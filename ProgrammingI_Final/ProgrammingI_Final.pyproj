@@ -59,11 +59,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Inv.py" />
     <Compile Include="MainForm.py" />
     <Compile Include="Menus.py" />
     <Compile Include="Menus2.py" />
     <Compile Include="Program.py" />
+    <Compile Include="store.py" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />

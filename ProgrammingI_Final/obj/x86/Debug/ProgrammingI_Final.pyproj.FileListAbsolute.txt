@@ -14,3 +14,17 @@ C:\Users\crowe.z\Desktop\Programming 1-6\ProgrammingI_Final\obj\x86\Debug\Progra
 C:\Users\crowe.z\Desktop\Programming 1-6\ProgrammingI_Final\obj\x86\Debug\ProgrammingI_Final.exe
 C:\Users\crowe.z\Desktop\Programming 1-6\ProgrammingI_Final\obj\x86\Debug\ProgrammingI_Final.Menus.resources
 C:\Users\crowe.z\Desktop\Programming 1-6\ProgrammingI_Final\obj\x86\Debug\ProgrammingI_Final.Menus2.resources
+C:\Users\zcrowe\Documents\GitHub\ProgrammingIfolder\ProgrammingI_Final\bin\Debug\ProgrammingI_Final.exe.config
+C:\Users\zcrowe\Documents\GitHub\ProgrammingIfolder\ProgrammingI_Final\bin\Debug\ProgrammingI_Final.exe
+C:\Users\zcrowe\Documents\GitHub\ProgrammingIfolder\ProgrammingI_Final\bin\Debug\ProgrammingI_Final.dll
+C:\Users\zcrowe\Documents\GitHub\ProgrammingIfolder\ProgrammingI_Final\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\zcrowe\Documents\GitHub\ProgrammingIfolder\ProgrammingI_Final\bin\Debug\Microsoft.Scripting.dll
+C:\Users\zcrowe\Documents\GitHub\ProgrammingIfolder\ProgrammingI_Final\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\zcrowe\Documents\GitHub\ProgrammingIfolder\ProgrammingI_Final\bin\Debug\IronPython.xml
+C:\Users\zcrowe\Documents\GitHub\ProgrammingIfolder\ProgrammingI_Final\bin\Debug\IronPython.Modules.xml
+C:\Users\zcrowe\Documents\GitHub\ProgrammingIfolder\ProgrammingI_Final\obj\x86\Debug\ProgrammingI_Final.pyprojResolveAssemblyReference.cache
+C:\Users\zcrowe\Documents\GitHub\ProgrammingIfolder\ProgrammingI_Final\obj\x86\Debug\ProgrammingI_Final.MainForm.resources
+C:\Users\zcrowe\Documents\GitHub\ProgrammingIfolder\ProgrammingI_Final\obj\x86\Debug\ProgrammingI_Final.Menus.resources
+C:\Users\zcrowe\Documents\GitHub\ProgrammingIfolder\ProgrammingI_Final\obj\x86\Debug\ProgrammingI_Final.Menus2.resources
+C:\Users\zcrowe\Documents\GitHub\ProgrammingIfolder\ProgrammingI_Final\obj\x86\Debug\ProgrammingI_Final.pyproj.GenerateResource.Cache
+C:\Users\zcrowe\Documents\GitHub\ProgrammingIfolder\ProgrammingI_Final\obj\x86\Debug\ProgrammingI_Final.exe

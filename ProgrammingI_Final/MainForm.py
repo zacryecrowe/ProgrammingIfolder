@@ -5,6 +5,7 @@ from System.Drawing import *
 from System.Windows.Forms import *
 from Menus import * 
 from Menus2 import * 
+from store import * 
 class MainForm(Form):
 	def __init__(self):
 		self.InitializeComponent()
@@ -21,9 +22,11 @@ class MainForm(Form):
 		self.cabloc = [self._Cabnet.Bottom-25, self._Cabnet.Right-50]
 		self.radloc = [self._Radio.Bottom-25, self._Radio.Right-50]		
 		###
+		
 		self.menu = Menus(self)
 		self.menu2 = Menus2(self)
-		self.inv = Inv(self) 
+		self.store = store(self)
+
 	def InitializeComponent(self):
 		self._components = System.ComponentModel.Container()
 		self._label1 = System.Windows.Forms.Label()
@@ -37,6 +40,8 @@ class MainForm(Form):
 		self._DebugBox = System.Windows.Forms.Label()
 		self._Shelf2 = System.Windows.Forms.Label()
 		self._Shelf3 = System.Windows.Forms.Label()
+		self._UpdateTimer = System.Windows.Forms.Timer(self._components)
+		self._playerinv = System.Windows.Forms.Label()
 		self.SuspendLayout()
 		# 
 		# label1
@@ -108,6 +113,7 @@ class MainForm(Form):
 		self._progressBar1.Name = "progressBar1"
 		self._progressBar1.Size = System.Drawing.Size(100, 23)
 		self._progressBar1.TabIndex = 5
+		self._progressBar1.Click += self.ProgressBar1Click
 		# 
 		# DebugBox
 		# 
@@ -136,10 +142,25 @@ class MainForm(Form):
 		self._Shelf3.TabIndex = 8
 		self._Shelf3.Text = "XBX"
 		# 
+		# UpdateTimer
+		# 
+		self._UpdateTimer.Enabled = True
+		self._UpdateTimer.Tick += self.UpdateTimerTick
+		# 
+		# playerinv
+		# 
+		self._playerinv.BackColor = System.Drawing.SystemColors.ButtonShadow
+		self._playerinv.Location = System.Drawing.Point(426, 350)
+		self._playerinv.Name = "playerinv"
+		self._playerinv.Size = System.Drawing.Size(28, 23)
+		self._playerinv.TabIndex = 9
+		self._playerinv.Text = "X"
+		# 
 		# MainForm
 		# 
 		self.BackColor = System.Drawing.SystemColors.ActiveCaptionText
 		self.ClientSize = System.Drawing.Size(984, 461)
+		self.Controls.Add(self._playerinv)
 		self.Controls.Add(self._Shelf3)
 		self.Controls.Add(self._Shelf2)
 		self.Controls.Add(self._DebugBox)
@@ -173,26 +194,34 @@ class MainForm(Form):
 		if self.menuflag == False: 
 			if self.playflagleft == True: 
 				self._player.Left -= 3
+				self._playerinv.Left -= 3
 				pass
 			elif self.playflagup == True: 
 				self._player.Top -= 3
+				self._playerinv.Top -= 3
 				pass 
 			elif self.playflagright == True:
 				self._player.Left += 3
+				self._playerinv.Left += 3
 				pass
 			elif self.playflagdown == True: 
 				self._player.Top += 3
+				self._playerinv.Top += 3
 				pass
 		else: 
 			pass 
 		if self._player.Top <= 20:
 			self._player.Top += 3
+			self._playerinv.Top += 3
 		elif self._player.Left <= 20:
 			self._player.Left += 3
+			self._playerinv.Left += 3
 		elif self._player.Bottom >= 480:
 			self._player.Top -= 3
+			self._playerinv.Top -= 3
 		elif self._player.Left >= 950:
 			self._player.Left -= 3
+			self._playerinv.Left -= 3
 
 	def MainFormLoad(self, sender, e):
 		pass
@@ -245,4 +274,22 @@ class MainForm(Form):
 			self.menuflag = True 
 		else:
 			self._DebugBox.Text = "Too far away!" 
+		pass
+
+	def ProgressBar1Click(self, sender, e):
+		pass
+	
+	############################ STORAGE FUNCTIONS ###########################################
+	
+	def updatestore(self, bandage, morphine, splint):
+		band = bandage 
+		morp = morphine 
+		spli = splint 
+		self._Shelf.Text = str(" B ") * band 
+		self._Shelf2.Text = str(" M ") * morp 
+		self._Shelf3.Text = str(" S ") * spli 
+				 
+
+	def UpdateTimerTick(self, sender, e):
+		self.store.storeupdate()
 		pass
