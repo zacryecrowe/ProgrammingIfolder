@@ -13,9 +13,26 @@ class store(Form):
 		self.shelf2 = ["M", "M", "M"]
 		self.shelf3 = ["S", "S", "S"]
 		self.playerinv = ["X"]
+		self.counter = 0
+		self.delivertime = 30 
+		self.requestFlag = False
+		self.requesttype = 0 
 	def InitializeComponent(self):
+		self._components = System.ComponentModel.Container()
+		self._trequest = System.Windows.Forms.Timer(self._components)
+		self.SuspendLayout()
+		# 
+		# trequest
+		# 
+		self._trequest.Interval = 1000
+		self._trequest.Tick += self.TrequestTick
+		# 
+		# store
+		# 
+		self.ClientSize = System.Drawing.Size(284, 261)
 		self.Name = "store"
 		self.Text = "store"
+		self.ResumeLayout(False)
 		
 	def storeupdate(self): 
 		Band = len(self.shelf1[::])
@@ -67,6 +84,11 @@ class store(Form):
 		self.playerinv = ["X"]
 		pass 
 	
+	def bandrequest(self):
+		self.shelf1.append("B")
+		self.shelf1.append("B")
+		self.shelf1.append("B")
+	
 	#______________Morphine Updates______________
 	
 	def morp_to_player(self):
@@ -80,6 +102,11 @@ class store(Form):
 	def morp_return(self):
 		self.shelf2.append("M")
 		self.playerinv = ["X"]
+		
+	def morprequest(self):
+		self.shelf2.append("M")
+		self.shelf2.append("M")
+		self.shelf2.append("M")
 	
 	#______________Splint Updates Updates______________
 	
@@ -94,3 +121,36 @@ class store(Form):
 	def spli_return(self):
 		self.shelf3.append("S")
 		self.playerinv = ["X"]
+		
+	def splirequest(self):
+		self.shelf3.append("S")
+		self.shelf3.append("S")
+		self.shelf3.append("S")
+		
+	#______________Timer Requests______________
+
+	def TrequestTick(self, sender, e):
+		if self.requestFlag == True:
+			self.counter += 1
+			if self.counter >= self.delivertime:
+				self.counter = 0
+				if self.requesttype == 1:
+					self.bandrequest()
+				elif self.requesttype == 2: 
+					self.morprequest()
+				elif self.requesttype == 3: 
+					self.splirequest()
+				self.requestFlag = False
+			else: 	
+				pass 														
+		else: 
+			pass 
+		pass
+	
+	def request(self, type):
+		type = type 
+		if self.requestFlag == False: 
+			pass
+		else: 
+			self.myparent.storeerror("You already made a request! Supplies are on the way!")
+		pass 

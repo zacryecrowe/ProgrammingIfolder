@@ -110,6 +110,7 @@ class MainForm(Form):
 		# 
 		self._progressBar1.BackColor = System.Drawing.SystemColors.ActiveCaptionText
 		self._progressBar1.Location = System.Drawing.Point(872, 97)
+		self._progressBar1.Maximum = 120
 		self._progressBar1.Name = "progressBar1"
 		self._progressBar1.Size = System.Drawing.Size(100, 23)
 		self._progressBar1.TabIndex = 5
@@ -122,7 +123,7 @@ class MainForm(Form):
 		self._DebugBox.Name = "DebugBox"
 		self._DebugBox.Size = System.Drawing.Size(260, 23)
 		self._DebugBox.TabIndex = 6
-		self._DebugBox.Text = "DebugBox"
+		self._DebugBox.Text = "Dialouge Box"
 		# 
 		# Shelf2
 		# 
@@ -307,11 +308,13 @@ class MainForm(Form):
 		msg = message 
 		self._DebugBox.Text = str(msg) 
 		
-				 
 
 	def UpdateTimerTick(self, sender, e):
 		self.store.storeupdate()
 		pass
+	
+	def ProgressBarAdd(self):
+		self.ProgressBar1.inc		 
 	
 	
 	def ProgressBar1Click(self, sender, e):

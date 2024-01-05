@@ -78,6 +78,9 @@
     <EmbeddedResource Include="Menus2.resx">
       <DependentUpon>Menus2.py</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="store.resx">
+      <DependentUpon>store.py</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(PythonBinPath)\SharpDevelop.Build.Python.targets" />
 </Project>
