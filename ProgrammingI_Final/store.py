@@ -24,7 +24,7 @@ class store(Form):
 		# 
 		# trequest
 		# 
-		self._trequest.Interval = 1000
+		self._trequest.Enabled = True
 		self._trequest.Tick += self.TrequestTick
 		# 
 		# store
@@ -131,6 +131,7 @@ class store(Form):
 
 	def TrequestTick(self, sender, e):
 		if self.requestFlag == True:
+			self.myparent.storeerror("Timer Recieved Request")
 			self.counter += 1
 			if self.counter >= self.delivertime:
 				self.counter = 0
@@ -147,10 +148,3 @@ class store(Form):
 			pass 
 		pass
 	
-	def request(self, type):
-		type = type 
-		if self.requestFlag == False: 
-			pass
-		else: 
-			self.myparent.storeerror("You already made a request! Supplies are on the way!")
-		pass 

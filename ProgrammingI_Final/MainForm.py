@@ -14,10 +14,14 @@ class MainForm(Form):
 		self.playflagright = False
 		self.playflagup = False
 		self.playflagdown = False
-		self.menuflag = False 
+		self.menuflag = False
+		self.requestFlag = False
 		#######Game Vars
 		#distance to objects where they become interactable 
 		self.intdist = 125
+		self.requesttype = 0
+		self.counter = 0
+		self.delivertime = 10 
 		#Center of Objects for Prox function. Each is first 3 letters of word with loc after
 		self.cabloc = [self._Cabnet.Bottom-25, self._Cabnet.Right-50]
 		self.radloc = [self._Radio.Bottom-25, self._Radio.Right-50]		
@@ -42,6 +46,7 @@ class MainForm(Form):
 		self._Shelf3 = System.Windows.Forms.Label()
 		self._UpdateTimer = System.Windows.Forms.Timer(self._components)
 		self._playerinv = System.Windows.Forms.Label()
+		self._TrequestTimer = System.Windows.Forms.Timer(self._components)
 		self.SuspendLayout()
 		# 
 		# label1
@@ -157,6 +162,12 @@ class MainForm(Form):
 		self._playerinv.TabIndex = 9
 		self._playerinv.Text = "X"
 		# 
+		# TrequestTimer
+		# 
+		self._TrequestTimer.Enabled = True
+		self._TrequestTimer.Interval = 1000
+		self._TrequestTimer.Tick += self.TrequestTimerTick
+		# 
 		# MainForm
 		# 
 		self.BackColor = System.Drawing.SystemColors.ActiveCaptionText
@@ -238,6 +249,8 @@ class MainForm(Form):
 		elif e.KeyCode == Keys.S:
 			self.playflagdown  = True 
 			pass
+		elif e.KeyCode == Keys.R: 
+			self.store.bandrequest()
 
 	def MainFormKeyUp(self, sender, e):
 		
@@ -290,7 +303,21 @@ class MainForm(Form):
 		pass
 	def Cab4Click(self):
 		self.store.heldreturn()
-
+		
+	def Rad1Click(self):
+		self._TrequestTimer.Enabled = True
+		self.bandageRequest()
+		self.menu2.FlagOn() 
+		
+	def Rad2Click(self):
+		self._TrequestTimer.Enabled = True
+		self.morphineRequest()
+		self.menu2.FlagOn()  
+		
+	def Rad3Click(self):
+		self._TrequestTimer.Enabled = True
+		self.splintRequest()
+		self.menu2.FlagOn() 
 	
 	############################ STORAGE FUNCTIONS ###########################################
 	
@@ -319,3 +346,23 @@ class MainForm(Form):
 	
 	def ProgressBar1Click(self, sender, e):
 		pass
+
+	def TrequestTimerTick(self, sender, e):
+		self.counter += 1 
+		self.TimerChecker() 
+	
+	def TimerChecker(self): 
+		if self.counter >= 30: 
+			self._TrequestTimer.Enabled = False
+			self.counter = 0
+			self.menu2.FlagOff()			
+		
+	def bandageRequest(self):
+		pass
+		
+	def morphineRequest(self):
+		pass
+		
+	def splintRequest(self):
+		pass
+		 

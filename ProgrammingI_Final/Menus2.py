@@ -9,6 +9,7 @@ class Menus2(Form):
 	def __init__(self,myparent):
 		self.InitializeComponent()
 		self.myparent = myparent	
+		self.requestFlag = False 
 	def InitializeComponent(self):
 		self._button3 = System.Windows.Forms.Button()
 		self._button2 = System.Windows.Forms.Button()
@@ -24,6 +25,7 @@ class Menus2(Form):
 		self._button3.TabIndex = 7
 		self._button3.Text = "button3"
 		self._button3.UseVisualStyleBackColor = True
+		self._button3.Click += self.Button3Click
 		# 
 		# button2
 		# 
@@ -33,6 +35,7 @@ class Menus2(Form):
 		self._button2.TabIndex = 6
 		self._button2.Text = "button2"
 		self._button2.UseVisualStyleBackColor = True
+		self._button2.Click += self.Button2Click
 		# 
 		# label1
 		# 
@@ -76,6 +79,40 @@ class Menus2(Form):
 		pass
 
 	def Button1Click(self, sender, e):
-		self.Hide()
-		self.myparent.unpause() 		
+		if self.requestFlag == False:
+			self.Hide()
+			self.myparent.Rad1Click()
+			self.myparent.unpause() 
+		elif self.requestFlag == True:
+			self.myparent.storeerror("You already requested something! Supplies are on the way!") 
+			self.Hide()		
+			self.myparent.unpause() 			
 		pass
+
+	def Button2Click(self, sender, e):
+		if self.requestFlag == False:
+			self.Hide()
+			self.myparent.Rad2Click()
+			self.myparent.unpause()
+		elif self.requestFlag == True:
+			self.myparent.storeerror("You already requested something! Supplies are on the way!") 
+			self.Hide()		
+			self.myparent.unpause() 			
+		pass
+
+	def Button3Click(self, sender, e):
+		if self.requestFlag == False:
+			self.Hide()
+			self.myparent.Rad3Click()
+			self.myparent.unpause()
+		elif self.requestFlag == True:
+			self.myparent.storeerror("You already requested something! Supplies are on the way!") 
+			self.Hide()		
+			self.myparent.unpause() 			
+		pass
+	
+	def FlagOn(self): 
+		self.requestFlag = True
+		
+	def FlagOff(self): 
+		self.requestFlag = True
