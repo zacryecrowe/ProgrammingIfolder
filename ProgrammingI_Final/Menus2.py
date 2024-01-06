@@ -84,7 +84,7 @@ class Menus2(Form):
 			self.myparent.Rad1Click()
 			self.myparent.unpause() 
 		elif self.requestFlag == True:
-			self.myparent.storeerror("You already requested something! Supplies are on the way!") 
+			#self.myparent.storeerror("You already requested something! Supplies are on the way!") 
 			self.Hide()		
 			self.myparent.unpause() 			
 		pass
@@ -115,4 +115,4 @@ class Menus2(Form):
 		self.requestFlag = True
 		
 	def FlagOff(self): 
-		self.requestFlag = True
+		self.requestFlag = False

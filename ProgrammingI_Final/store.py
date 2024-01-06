@@ -24,8 +24,8 @@ class store(Form):
 		# 
 		# trequest
 		# 
-		self._trequest.Enabled = True
-		self._trequest.Tick += self.TrequestTick
+		#self._trequest.Enabled = True
+		#self._trequest.Tick += self.TrequestTick
 		# 
 		# store
 		# 
@@ -129,7 +129,7 @@ class store(Form):
 		
 	#______________Timer Requests______________
 
-	def TrequestTick(self, sender, e):
+	"""def TrequestTick(self, sender, e):
 		if self.requestFlag == True:
 			self.myparent.storeerror("Timer Recieved Request")
 			self.counter += 1
@@ -147,4 +147,4 @@ class store(Form):
 		else: 
 			pass 
 		pass
-	
+	"""

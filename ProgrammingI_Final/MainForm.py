@@ -21,7 +21,7 @@ class MainForm(Form):
 		self.intdist = 125
 		self.requesttype = 0
 		self.counter = 0
-		self.delivertime = 10 
+		self.delivertime = 45 
 		#Center of Objects for Prox function. Each is first 3 letters of word with loc after
 		self.cabloc = [self._Cabnet.Bottom-25, self._Cabnet.Right-50]
 		self.radloc = [self._Radio.Bottom-25, self._Radio.Right-50]		
@@ -40,7 +40,7 @@ class MainForm(Form):
 		self._Tspawn = System.Windows.Forms.Timer(self._components)
 		self._Cabnet = System.Windows.Forms.Label()
 		self._Radio = System.Windows.Forms.Label()
-		self._progressBar1 = System.Windows.Forms.ProgressBar()
+		self._ProgressBar1 = System.Windows.Forms.ProgressBar()
 		self._DebugBox = System.Windows.Forms.Label()
 		self._Shelf2 = System.Windows.Forms.Label()
 		self._Shelf3 = System.Windows.Forms.Label()
@@ -111,15 +111,17 @@ class MainForm(Form):
 		self._Radio.Text = "Medical Requests"
 		self._Radio.Click += self.Label4Click
 		# 
-		# progressBar1
+		# ProgressBar1
 		# 
-		self._progressBar1.BackColor = System.Drawing.SystemColors.ActiveCaptionText
-		self._progressBar1.Location = System.Drawing.Point(872, 97)
-		self._progressBar1.Maximum = 120
-		self._progressBar1.Name = "progressBar1"
-		self._progressBar1.Size = System.Drawing.Size(100, 23)
-		self._progressBar1.TabIndex = 5
-		self._progressBar1.Click += self.ProgressBar1Click
+		self._ProgressBar1.BackColor = System.Drawing.SystemColors.ActiveCaptionText
+		self._ProgressBar1.Location = System.Drawing.Point(872, 97)
+		self._ProgressBar1.MarqueeAnimationSpeed = 1
+		self._ProgressBar1.Maximum = 45
+		self._ProgressBar1.Name = "ProgressBar1"
+		self._ProgressBar1.Size = System.Drawing.Size(100, 23)
+		self._ProgressBar1.Step = 1
+		self._ProgressBar1.TabIndex = 5
+		self._ProgressBar1.Click += self.ProgressBar1Click
 		# 
 		# DebugBox
 		# 
@@ -164,7 +166,6 @@ class MainForm(Form):
 		# 
 		# TrequestTimer
 		# 
-		self._TrequestTimer.Enabled = True
 		self._TrequestTimer.Interval = 1000
 		self._TrequestTimer.Tick += self.TrequestTimerTick
 		# 
@@ -176,7 +177,7 @@ class MainForm(Form):
 		self.Controls.Add(self._Shelf3)
 		self.Controls.Add(self._Shelf2)
 		self.Controls.Add(self._DebugBox)
-		self.Controls.Add(self._progressBar1)
+		self.Controls.Add(self._ProgressBar1)
 		self.Controls.Add(self._Radio)
 		self.Controls.Add(self._Cabnet)
 		self.Controls.Add(self._Shelf)
@@ -306,19 +307,18 @@ class MainForm(Form):
 		
 	def Rad1Click(self):
 		self._TrequestTimer.Enabled = True
-		self.bandageRequest()
-		self.menu2.FlagOn() 
+		self.menu2.FlagOn()
+		self.requesttype = 1		
 		
 	def Rad2Click(self):
 		self._TrequestTimer.Enabled = True
-		self.morphineRequest()
 		self.menu2.FlagOn()  
+		self.requesttype = 2
 		
 	def Rad3Click(self):
 		self._TrequestTimer.Enabled = True
-		self.splintRequest()
 		self.menu2.FlagOn() 
-	
+		self.requesttype = 3		
 	############################ STORAGE FUNCTIONS ###########################################
 	
 	def updatestore(self, bandage, morphine, splint, playerinv):
@@ -348,21 +348,34 @@ class MainForm(Form):
 		pass
 
 	def TrequestTimerTick(self, sender, e):
-		self.counter += 1 
+		self.counter += 1
+		self._ProgressBar1.Increment(1) 		
 		self.TimerChecker() 
 	
-	def TimerChecker(self): 
-		if self.counter >= 30: 
-			self._TrequestTimer.Enabled = False
-			self.counter = 0
-			self.menu2.FlagOff()			
-		
-	def bandageRequest(self):
+	def TimerChecker(self):
+		self.storeerror(str(self.counter))	
+		type = self.requesttype 		 
+		if self.counter >= 30:
+			self.storeerror(str(self.requesttype))			 
+			if type == 1:
+				self.store.bandrequest()
+				self.requesttype = 0
+				self.storeerror("Bandage Request Sent!")
+				self.requestreset()
+			elif type == 2: 
+				self.store.morprequest()
+				self.requesttype = 0
+				self.storeerror("Morphine Request Sent!")
+				self.requestreset()
+			elif type == 3:
+				self.store.splirequest()
+				self.requesttype = 0
+				self.storeerror("Splint Request Sent!")
+				self.requestreset()
+
+	def requestreset(self):
+		self.counter = 0 
+		self.menu2.FlagOff()
+		self._TrequestTimer.Enabled = False
+		self._ProgressBar1.Increment(-30)
 		pass
-		
-	def morphineRequest(self):
-		pass
-		
-	def splintRequest(self):
-		pass
-		 
