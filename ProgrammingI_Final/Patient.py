@@ -16,7 +16,7 @@ class Patient(Form):
 		self.wounds = wounds 
 		self.hp = hp 
 		### Chosen Names ### 
-		Chosen = [pass]		
+		Chosen = ["Pass"]		
 	
 	def InitializeComponent(self):
 		self.Name = "Patient"
@@ -77,11 +77,11 @@ def getRandrank(self):
 
 ### Wound generation Nonsense ### 
 def getRandwounds(self):
-	wounds = [####]
+	wounds = ["Pass"] 
 	pass 
 
 def GenSituation(self):
 	Situations = ["Shot", "Wire", "Advance", "Landmine", "Artilery", "CQC", "Impact"]  	 
 	
 def GenWounds(self): 
-	
+	pass 
