@@ -6,6 +6,7 @@ from System.Windows.Forms import *
 from Menus import * 
 from Menus2 import * 
 from store import * 
+from Patient import *
 class MainForm(Form):
 	def __init__(self):
 		self.InitializeComponent()
@@ -60,7 +61,7 @@ class MainForm(Form):
 		# player
 		# 
 		self._player.BackColor = System.Drawing.SystemColors.ActiveBorder
-		self._player.Location = System.Drawing.Point(426, 320)
+		self._player.Location = System.Drawing.Point(416, 236)
 		self._player.Name = "player"
 		self._player.Size = System.Drawing.Size(28, 67)
 		self._player.TabIndex = 1
@@ -158,7 +159,7 @@ class MainForm(Form):
 		# playerinv
 		# 
 		self._playerinv.BackColor = System.Drawing.SystemColors.ButtonShadow
-		self._playerinv.Location = System.Drawing.Point(426, 350)
+		self._playerinv.Location = System.Drawing.Point(416, 266)
 		self._playerinv.Name = "playerinv"
 		self._playerinv.Size = System.Drawing.Size(28, 23)
 		self._playerinv.TabIndex = 9
