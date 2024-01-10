@@ -48,6 +48,12 @@ class MainForm(Form):
 		self._UpdateTimer = System.Windows.Forms.Timer(self._components)
 		self._playerinv = System.Windows.Forms.Label()
 		self._TrequestTimer = System.Windows.Forms.Timer(self._components)
+		self._label3 = System.Windows.Forms.Label()
+		self._label5 = System.Windows.Forms.Label()
+		self._label6 = System.Windows.Forms.Label()
+		self._label7 = System.Windows.Forms.Label()
+		self._label8 = System.Windows.Forms.Label()
+		self._label9 = System.Windows.Forms.Label()
 		self.SuspendLayout()
 		# 
 		# label1
@@ -170,10 +176,76 @@ class MainForm(Form):
 		self._TrequestTimer.Interval = 1000
 		self._TrequestTimer.Tick += self.TrequestTimerTick
 		# 
+		# label3
+		# 
+		self._label3.BackColor = System.Drawing.SystemColors.Info
+		self._label3.Location = System.Drawing.Point(297, 132)
+		self._label3.Name = "label3"
+		self._label3.Size = System.Drawing.Size(72, 87)
+		self._label3.TabIndex = 11
+		self._label3.Text = "bed2"
+		self._label3.Click += self.Label3Click
+		# 
+		# label5
+		# 
+		self._label5.BackColor = System.Drawing.SystemColors.Info
+		self._label5.Location = System.Drawing.Point(617, 297)
+		self._label5.Name = "label5"
+		self._label5.Size = System.Drawing.Size(72, 87)
+		self._label5.TabIndex = 15
+		self._label5.Text = "bed6"
+		self._label5.Click += self.Label5Click
+		# 
+		# label6
+		# 
+		self._label6.BackColor = System.Drawing.SystemColors.Info
+		self._label6.Location = System.Drawing.Point(450, 297)
+		self._label6.Name = "label6"
+		self._label6.Size = System.Drawing.Size(72, 87)
+		self._label6.TabIndex = 14
+		self._label6.Text = "bed5"
+		self._label6.Click += self.Label6Click
+		# 
+		# label7
+		# 
+		self._label7.BackColor = System.Drawing.SystemColors.Info
+		self._label7.Location = System.Drawing.Point(297, 297)
+		self._label7.Name = "label7"
+		self._label7.Size = System.Drawing.Size(72, 87)
+		self._label7.TabIndex = 13
+		self._label7.Text = "bed4"
+		self._label7.Click += self.Label7Click
+		# 
+		# label8
+		# 
+		self._label8.BackColor = System.Drawing.SystemColors.Info
+		self._label8.Location = System.Drawing.Point(144, 297)
+		self._label8.Name = "label8"
+		self._label8.Size = System.Drawing.Size(72, 87)
+		self._label8.TabIndex = 17
+		self._label8.Text = "bed2"
+		self._label8.Click += self.Label8Click
+		# 
+		# label9
+		# 
+		self._label9.BackColor = System.Drawing.SystemColors.Info
+		self._label9.Location = System.Drawing.Point(144, 132)
+		self._label9.Name = "label9"
+		self._label9.Size = System.Drawing.Size(72, 87)
+		self._label9.TabIndex = 20
+		self._label9.Text = "bed1"
+		self._label9.Click += self.Label9Click
+		# 
 		# MainForm
 		# 
 		self.BackColor = System.Drawing.SystemColors.ActiveCaptionText
 		self.ClientSize = System.Drawing.Size(984, 461)
+		self.Controls.Add(self._label9)
+		self.Controls.Add(self._label8)
+		self.Controls.Add(self._label5)
+		self.Controls.Add(self._label6)
+		self.Controls.Add(self._label7)
+		self.Controls.Add(self._label3)
 		self.Controls.Add(self._playerinv)
 		self.Controls.Add(self._Shelf3)
 		self.Controls.Add(self._Shelf2)
@@ -269,10 +341,6 @@ class MainForm(Form):
 		pass
 	
 	
-
-	def Label2Click(self, sender, e):
-		self._label2.Text = "Clicked" 
-		
 		pass
 
 
@@ -379,4 +447,26 @@ class MainForm(Form):
 		self.menu2.FlagOff()
 		self._TrequestTimer.Enabled = False
 		self._ProgressBar1.Increment(-30)
+		pass
+#Bed 
+	def Label2Click(self, sender, e):
+		self._label2.Text = "Clicked" 
+#Bed1		
+	def Label9Click(self, sender, e):
+		pass
+	#Bed2
+	def Label3Click(self, sender, e):
+		pass
+
+#Bed3	
+	def Label8Click(self, sender, e):
+		pass
+#Bed4
+	def Label7Click(self, sender, e):
+		pass
+#Bed5
+	def Label6Click(self, sender, e):
+		pass
+#Bed6
+	def Label5Click(self, sender, e):
 		pass
