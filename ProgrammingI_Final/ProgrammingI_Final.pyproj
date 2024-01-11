@@ -63,6 +63,7 @@
     <Compile Include="Menus.py" />
     <Compile Include="Menus2.py" />
     <Compile Include="Patient.py" />
+    <Compile Include="PatientInfo.py" />
     <Compile Include="Program.py" />
     <Compile Include="store.py" />
   </ItemGroup>
@@ -78,6 +79,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Menus2.resx">
       <DependentUpon>Menus2.py</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PatientInfo.resx">
+      <DependentUpon>PatientInfo.py</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="store.resx">
       <DependentUpon>store.py</DependentUpon>

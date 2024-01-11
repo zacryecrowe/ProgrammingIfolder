@@ -6,11 +6,13 @@ from System.Drawing import *
 from System.Windows.Forms import *
 
 class Patient:
-    def __init__(self, name, rank, wounds, ):
+    def __init__(self, name, rank, id, wounds, hp, myparent):
         self.name = name
         self.rank = rank
         self.wounds = wounds
-      
+        id = 0 
+    def InitializeComponent(self):
+     	
     def getName(self):
         return self.name
 
@@ -48,20 +50,23 @@ class Patient:
       return Wounds
 
     def createRandomPatient():
-        name = Patient.getRandomName()
+#        name = Patient.getRandomName()
         rank = Patient.getRandomRank()
         wounds = Patient.getRandomWounds()
-        return Patient(name, rank, wounds,)
+        id = self.id
+        return Patient(name, rank, id, wounds, hp)
+        self.id += 1
 
+	def spawnPatient():
+		 patients.append(Patient.createRandomPatient())
+		 
+	def RequestInfo(id):
+		for patient in patients: 
+			if id in patient: 
+				return(patient)
+	def update
 
-
-
-#### TEST STUFF###
-#num_patients = 4
-#patients = []
-
-#for _ in range(num_patients):
- #   patients.append(Patient.createRandomPatient())
+patients = []
 
 
 

@@ -7,6 +7,8 @@ from Menus import *
 from Menus2 import * 
 from store import * 
 from Patient import *
+from PatientInfo import *
+
 class MainForm(Form):
 	def __init__(self):
 		self.InitializeComponent()
@@ -48,6 +50,12 @@ class MainForm(Form):
 		self._UpdateTimer = System.Windows.Forms.Timer(self._components)
 		self._playerinv = System.Windows.Forms.Label()
 		self._TrequestTimer = System.Windows.Forms.Timer(self._components)
+		self._label3 = System.Windows.Forms.Label()
+		self._Generator = System.Windows.Forms.Timer(self._components)
+		self._timer1 = System.Windows.Forms.Timer(self._components)
+		self._label4 = System.Windows.Forms.Label()
+		self._label2 = System.Windows.Forms.Label()
+		self._label5 = System.Windows.Forms.Label()
 		self.SuspendLayout()
 		# 
 		# label1
@@ -170,10 +178,57 @@ class MainForm(Form):
 		self._TrequestTimer.Interval = 1000
 		self._TrequestTimer.Tick += self.TrequestTimerTick
 		# 
+		# label3
+		# 
+		self._label3.BackColor = System.Drawing.Color.AliceBlue
+		self._label3.Location = System.Drawing.Point(275, 47)
+		self._label3.Name = "label3"
+		self._label3.Size = System.Drawing.Size(33, 72)
+		self._label3.TabIndex = 11
+		self._label3.Text = "Soldier"
+		self._label3.Click += self.Label3Click
+		# 
+		# Generator
+		# 
+		self._Generator.Tick += self.GeneratorTick
+		# 
+		# label4
+		# 
+		self._label4.BackColor = System.Drawing.SystemColors.Info
+		self._label4.Location = System.Drawing.Point(12, 36)
+		self._label4.Name = "label4"
+		self._label4.Size = System.Drawing.Size(68, 105)
+		self._label4.TabIndex = 12
+		self._label4.Text = "Bed1"
+		self._label4.Click += self.Label4Click
+		# 
+		# label2
+		# 
+		self._label2.BackColor = System.Drawing.SystemColors.Info
+		self._label2.Location = System.Drawing.Point(12, 68)
+		self._label2.Name = "label2"
+		self._label2.Size = System.Drawing.Size(68, 105)
+		self._label2.TabIndex = 13
+		self._label2.Text = "Bed1"
+		# 
+		# label5
+		# 
+		self._label5.BackColor = System.Drawing.SystemColors.Info
+		self._label5.Location = System.Drawing.Point(263, 159)
+		self._label5.Name = "label5"
+		self._label5.Size = System.Drawing.Size(68, 105)
+		self._label5.TabIndex = 14
+		self._label5.Text = "Bed1"
+		self._label5.Click += self.Label5Click
+		# 
 		# MainForm
 		# 
 		self.BackColor = System.Drawing.SystemColors.ActiveCaptionText
 		self.ClientSize = System.Drawing.Size(984, 461)
+		self.Controls.Add(self._label5)
+		self.Controls.Add(self._label2)
+		self.Controls.Add(self._label4)
+		self.Controls.Add(self._label3)
 		self.Controls.Add(self._playerinv)
 		self.Controls.Add(self._Shelf3)
 		self.Controls.Add(self._Shelf2)
@@ -379,4 +434,15 @@ class MainForm(Form):
 		self.menu2.FlagOff()
 		self._TrequestTimer.Enabled = False
 		self._ProgressBar1.Increment(-30)
+		pass
+
+	def Label3Click(self, sender, e):
+		pass
+
+	def GeneratorTick(self, sender, e):
+		pass
+
+	def Label5Click(self, sender, e):
+		patient = [self.Patient.RequestInfo(0)]
+		#self.PatientInfo.
 		pass
