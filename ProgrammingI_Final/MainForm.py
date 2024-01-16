@@ -424,7 +424,20 @@ class MainForm(Form):
 		self._TrequestTimer.Enabled = False
 		self._ProgressBar1.Increment(-30)
 		pass
+<<<<<<< Updated upstream
 ########## BED NONSENSE #################### 
+=======
+#Bed 
+	def Label2Click(self, sender, e):
+		self._label2.Text = "Clicked" 
+#Bed1		
+	def Label9Click(self, sender, e):
+		self.storeerror("Bed Click!")
+		pass
+	#Bed2
+	def Label3Click(self, sender, e):
+		pass
+>>>>>>> Stashed changes
 
 ########## PATIENT NONSENSE #################### 
 

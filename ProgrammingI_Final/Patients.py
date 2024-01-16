@@ -6,6 +6,7 @@ from System.Drawing import *
 from System.Windows.Forms import *
 
 class Patients(Form):
+<<<<<<< Updated upstream
 	def __init__(self, myparent):
 		self.InitializeComponent()
 	
@@ -128,4 +129,29 @@ class Patients(Form):
 
 
 	def Button1Click(self, sender, e):
+=======
+	def __init__(self):
+		self.InitializeComponent()
+	
+	def InitializeComponent(self):
+		self.SuspendLayout()
+		# 
+		# Patients
+		# 
+		self.ClientSize = System.Drawing.Size(284, 261)
+		self.Name = "Patients"
+		self.Text = "Patients"
+		self.Load += self.PatientsLoad
+		self.ResumeLayout(False)
+
+
+
+
+
+
+
+
+
+	def PatientsLoad(self, sender, e):
+>>>>>>> Stashed changes
 		pass
