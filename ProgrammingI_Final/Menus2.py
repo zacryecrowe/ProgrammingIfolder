@@ -23,7 +23,7 @@ class Menus2(Form):
 		self._button3.Name = "button3"
 		self._button3.Size = System.Drawing.Size(190, 33)
 		self._button3.TabIndex = 7
-		self._button3.Text = "button3"
+		self._button3.Text = "Request Splints"
 		self._button3.UseVisualStyleBackColor = True
 		self._button3.Click += self.Button3Click
 		# 
@@ -33,7 +33,7 @@ class Menus2(Form):
 		self._button2.Name = "button2"
 		self._button2.Size = System.Drawing.Size(190, 33)
 		self._button2.TabIndex = 6
-		self._button2.Text = "button2"
+		self._button2.Text = "Request Morphine"
 		self._button2.UseVisualStyleBackColor = True
 		self._button2.Click += self.Button2Click
 		# 
@@ -55,7 +55,7 @@ class Menus2(Form):
 		self._button1.Name = "button1"
 		self._button1.Size = System.Drawing.Size(190, 33)
 		self._button1.TabIndex = 4
-		self._button1.Text = "button1"
+		self._button1.Text = "Request Bandages"
 		self._button1.UseVisualStyleBackColor = True
 		self._button1.Click += self.Button1Click
 		# 

@@ -62,6 +62,11 @@
     <Compile Include="MainForm.py" />
     <Compile Include="Menus.py" />
     <Compile Include="Menus2.py" />
+<<<<<<< Updated upstream
+=======
+    <Compile Include="Patient.py" />
+>>>>>>> Stashed changes
+    <Compile Include="Patients.py" />
     <Compile Include="Program.py" />
     <Compile Include="store.py" />
   </ItemGroup>
@@ -77,6 +82,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Menus2.resx">
       <DependentUpon>Menus2.py</DependentUpon>
+    </EmbeddedResource>
+<<<<<<< Updated upstream
+=======
+    <EmbeddedResource Include="Patient.resx">
+      <DependentUpon>Patient.py</DependentUpon>
+    </EmbeddedResource>
+>>>>>>> Stashed changes
+    <EmbeddedResource Include="Patients.resx">
+      <DependentUpon>Patients.py</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="store.resx">
       <DependentUpon>store.py</DependentUpon>

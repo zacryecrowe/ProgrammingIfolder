@@ -30,3 +30,9 @@ C:\Users\zcrowe\Documents\GitHub\ProgrammingIfolder\ProgrammingI_Final\obj\x86\D
 C:\Users\zcrowe\Documents\GitHub\ProgrammingIfolder\ProgrammingI_Final\obj\x86\Debug\ProgrammingI_Final.exe
 C:\Users\crowe.z\Desktop\Programming 1-6\ProgrammingI_Final\obj\x86\Debug\ProgrammingI_Final.store.resources
 C:\Users\zcrowe\Documents\GitHub\ProgrammingIfolder\ProgrammingI_Final\obj\x86\Debug\ProgrammingI_Final.store.resources
+<<<<<<< Updated upstream
+C:\Users\zcrowe\Documents\GitHub\ProgrammingIfolder\ProgrammingI_Final\obj\x86\Debug\ProgrammingI_Final.Patients.resources
+=======
+C:\Users\crowe.z\Desktop\Programming 1-6\ProgrammingI_Final\obj\x86\Debug\ProgrammingI_Final.Patients.resources
+C:\Users\crowe.z\Desktop\Programming 1-6\ProgrammingI_Final\obj\x86\Debug\ProgrammingI_Final.Patient.resources
+>>>>>>> Stashed changes
